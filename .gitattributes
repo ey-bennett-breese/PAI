@@ -1,0 +1,2 @@
+Tank/E/meshes/transbot_astra/configuration/transbot_astra_base.usd filter=lfs diff=lfs merge=lfs -text
+Tank/raw/E/meshes/transbot_astra/configuration/transbot_astra_base.usd filter=lfs diff=lfs merge=lfs -text
