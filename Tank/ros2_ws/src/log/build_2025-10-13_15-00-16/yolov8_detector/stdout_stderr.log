@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing yolov8_detector.egg-info/PKG-INFO
+writing dependency_links to yolov8_detector.egg-info/dependency_links.txt
+writing entry points to yolov8_detector.egg-info/entry_points.txt
+writing requirements to yolov8_detector.egg-info/requires.txt
+writing top-level names to yolov8_detector.egg-info/top_level.txt
+reading manifest file 'yolov8_detector.egg-info/SOURCES.txt'
+writing manifest file 'yolov8_detector.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/python3.10/site-packages/yolov8-detector.egg-link (link to .)
+Installing yolov8_node script to /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/yolov8_detector
+
+Installed /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector
+running symlink_data
+symbolically linking /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/resource/yolov8_detector -> /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/share/ament_index/resource_index/packages
+symbolically linking /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/package.xml -> /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/share/yolov8_detector

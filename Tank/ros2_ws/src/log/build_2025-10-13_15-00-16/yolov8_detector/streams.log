@@ -1,0 +1,19 @@
+[0.250s] Invoking command in '/home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector': PYTHONPATH=/home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/build --no-deps symlink_data --force
+[0.362s] running develop
+[0.418s] running egg_info
+[0.418s] writing yolov8_detector.egg-info/PKG-INFO
+[0.418s] writing dependency_links to yolov8_detector.egg-info/dependency_links.txt
+[0.418s] writing entry points to yolov8_detector.egg-info/entry_points.txt
+[0.418s] writing requirements to yolov8_detector.egg-info/requires.txt
+[0.418s] writing top-level names to yolov8_detector.egg-info/top_level.txt
+[0.420s] reading manifest file 'yolov8_detector.egg-info/SOURCES.txt'
+[0.420s] writing manifest file 'yolov8_detector.egg-info/SOURCES.txt'
+[0.420s] running build_ext
+[0.420s] Creating /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/python3.10/site-packages/yolov8-detector.egg-link (link to .)
+[0.420s] Installing yolov8_node script to /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/yolov8_detector
+[0.420s] 
+[0.420s] Installed /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector
+[0.420s] running symlink_data
+[0.420s] symbolically linking /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/resource/yolov8_detector -> /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/share/ament_index/resource_index/packages
+[0.420s] symbolically linking /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/package.xml -> /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/share/yolov8_detector
+[0.434s] Invoked command in '/home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector' returned '0': PYTHONPATH=/home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/build --no-deps symlink_data --force
