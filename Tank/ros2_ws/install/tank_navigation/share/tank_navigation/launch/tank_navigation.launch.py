@@ -30,7 +30,7 @@ def generate_launch_description():
     map_dir = LaunchConfiguration(
         "map",
         default=os.path.join(
-            get_package_share_directory("tank_navigation"), "maps", "carter_warehouse_navigation.yaml"
+            get_package_share_directory("tank_navigation"), "maps", "tank_alpharetta_navigation.yaml"
         ),
     )
 
