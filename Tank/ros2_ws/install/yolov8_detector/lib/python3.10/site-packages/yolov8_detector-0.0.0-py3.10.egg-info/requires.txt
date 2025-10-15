@@ -1,4 +1,4 @@
-setuptools
-rclpy
 cv_bridge
+rclpy
+setuptools
 ultralytics
