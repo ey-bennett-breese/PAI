@@ -1,1 +1,0 @@
-/home/bennett/github/PAI/Tank/ros2_ws/src/yolov8_detector/setup.py
