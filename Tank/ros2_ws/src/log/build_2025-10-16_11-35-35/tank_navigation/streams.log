@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/home/bennett/github/PAI/Tank/ros2_ws/src/build/tank_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector:/opt/ros/humble /usr/bin/cmake --build /home/bennett/github/PAI/Tank/ros2_ws/src/build/tank_navigation -- -j24 -l24
+[0.122s] Invoked command in '/home/bennett/github/PAI/Tank/ros2_ws/src/build/tank_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector:/opt/ros/humble /usr/bin/cmake --build /home/bennett/github/PAI/Tank/ros2_ws/src/build/tank_navigation -- -j24 -l24
+[0.128s] Invoking command in '/home/bennett/github/PAI/Tank/ros2_ws/src/build/tank_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector:/opt/ros/humble /usr/bin/cmake --install /home/bennett/github/PAI/Tank/ros2_ws/src/build/tank_navigation
+[0.132s] -- Install configuration: ""
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/launch
+[0.132s] -- Installing: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/launch/tank_navigation.launch.py
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/params
+[0.132s] -- Installing: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/params/tank_navigation_params.yaml
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/maps
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/maps/tank_alpharetta_navigation.yaml
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/maps/tank_alpharetta_navigation.png
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/rviz2
+[0.132s] -- Installing: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/rviz2/tank_navigation.rviz
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/rviz2/tank_navigation_namespaced.rviz
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/ament_index/resource_index/package_run_dependencies/tank_navigation
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/ament_index/resource_index/parent_prefix_path/tank_navigation
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/environment/path.sh
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/environment/path.dsv
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/local_setup.bash
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/local_setup.sh
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/local_setup.zsh
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/local_setup.dsv
+[0.132s] -- Installing: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/package.dsv
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/ament_index/resource_index/packages/tank_navigation
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/cmake/tank_navigationConfig.cmake
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/cmake/tank_navigationConfig-version.cmake
+[0.132s] -- Up-to-date: /home/bennett/github/PAI/Tank/ros2_ws/src/install/tank_navigation/share/tank_navigation/package.xml
+[0.135s] Invoked command in '/home/bennett/github/PAI/Tank/ros2_ws/src/build/tank_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector:/opt/ros/humble /usr/bin/cmake --install /home/bennett/github/PAI/Tank/ros2_ws/src/build/tank_navigation

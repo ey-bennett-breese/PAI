@@ -1,0 +1,2 @@
+Invoking command in '/home/bennett/github/PAI/Tank/ros2_ws/build/tank_navigation': /usr/bin/cmake /home/bennett/github/PAI/Tank/ros2_ws/src/navigation/tank_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bennett/github/PAI/Tank/ros2_ws/install/tank_navigation
+Invoked command in '/home/bennett/github/PAI/Tank/ros2_ws/build/tank_navigation' returned '1': /usr/bin/cmake /home/bennett/github/PAI/Tank/ros2_ws/src/navigation/tank_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bennett/github/PAI/Tank/ros2_ws/install/tank_navigation

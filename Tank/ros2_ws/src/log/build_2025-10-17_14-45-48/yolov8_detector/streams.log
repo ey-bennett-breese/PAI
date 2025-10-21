@@ -1,0 +1,21 @@
+[0.249s] Invoking command in '/home/bennett/github/PAI/Tank/ros2_ws/src/yolov8_detector': PYTHONPATH=/home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/yolov8_detector build --build-base /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/build install --record /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/install.log --single-version-externally-managed install_data
+[0.328s] running egg_info
+[0.328s] writing ../build/yolov8_detector/yolov8_detector.egg-info/PKG-INFO
+[0.329s] writing dependency_links to ../build/yolov8_detector/yolov8_detector.egg-info/dependency_links.txt
+[0.329s] writing entry points to ../build/yolov8_detector/yolov8_detector.egg-info/entry_points.txt
+[0.329s] writing requirements to ../build/yolov8_detector/yolov8_detector.egg-info/requires.txt
+[0.329s] writing top-level names to ../build/yolov8_detector/yolov8_detector.egg-info/top_level.txt
+[0.330s] reading manifest file '../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+[0.330s] writing manifest file '../build/yolov8_detector/yolov8_detector.egg-info/SOURCES.txt'
+[0.330s] running build
+[0.330s] running build_py
+[0.330s] running install
+[0.330s] running install_lib
+[0.331s] running install_data
+[0.331s] running install_egg_info
+[0.332s] removing '/home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[0.333s] Copying ../build/yolov8_detector/yolov8_detector.egg-info to /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/python3.10/site-packages/yolov8_detector-0.0.0-py3.10.egg-info
+[0.333s] running install_scripts
+[0.342s] Installing yolov8_node script to /home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/yolov8_detector
+[0.342s] writing list of installed files to '/home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/install.log'
+[0.353s] Invoked command in '/home/bennett/github/PAI/Tank/ros2_ws/src/yolov8_detector' returned '0': PYTHONPATH=/home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bennett/github/PAI/Tank/ros2_ws/src/install/yolov8_detector/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/yolov8_detector build --build-base /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/build install --record /home/bennett/github/PAI/Tank/ros2_ws/src/build/yolov8_detector/install.log --single-version-externally-managed install_data
