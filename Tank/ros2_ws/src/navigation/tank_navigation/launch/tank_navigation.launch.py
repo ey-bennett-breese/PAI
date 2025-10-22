@@ -75,6 +75,11 @@ def generate_launch_description():
 	    executable='lifecycle_manager',
 	    name='lifecycle_manager_localization',
 	    output='screen',
+        remappings=[
+            ('/odom', '/chassis/odom'),
+            ('/scan', '/scan_lidar'),
+            ('/cmd_vel', '/chassis/cmd_vel')  # Or whatever topic your robot listens to
+        ],
 	    parameters=[{'use_sim_time': use_sim_time,
 		         'autostart': True,
 		         'node_names': ['map_server', 'amcl']}]
