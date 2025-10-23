@@ -2,6 +2,7 @@
 /home/bennett/github/PAI/Tank/ros2_ws/install/tank_navigation/share/tank_navigation/params/tank_navigation_params.yaml
 /home/bennett/github/PAI/Tank/ros2_ws/install/tank_navigation/share/tank_navigation/maps/carter_alpharetta_navigation.png
 /home/bennett/github/PAI/Tank/ros2_ws/install/tank_navigation/share/tank_navigation/maps/tank_alpharetta_navigation.yaml
+/home/bennett/github/PAI/Tank/ros2_ws/install/tank_navigation/share/tank_navigation/rviz2/tank_config.rviz
 /home/bennett/github/PAI/Tank/ros2_ws/install/tank_navigation/share/tank_navigation/rviz2/tank_navigation.rviz
 /home/bennett/github/PAI/Tank/ros2_ws/install/tank_navigation/share/tank_navigation/rviz2/tank_navigation_namespaced.rviz
 /home/bennett/github/PAI/Tank/ros2_ws/install/tank_navigation/share/ament_index/resource_index/package_run_dependencies/tank_navigation
