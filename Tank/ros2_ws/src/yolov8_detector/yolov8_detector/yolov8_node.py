@@ -11,7 +11,7 @@ class Yolov8Detector(Node):
         super().__init__('yolov8_detector')
         self.subscription = self.create_subscription(
             Image,
-            '/rgb',  # The topic where Isaac Sim publishes camera frames
+            '/rgb_side',  # The topic where Isaac Sim publishes camera frames
             self.listener_callback,
             10)
         self.publisher = self.create_publisher(Image, '/camera/detections', 10)
@@ -19,12 +19,18 @@ class Yolov8Detector(Node):
         
         # self.model = YOLO('yolov8x-worldv2.pt')
         # self.model = YOLO('yolov8n.pt')  
-        self.model = YOLO('yolov8n-oiv7') # Path to your YOLOv8 model. oiv7 seems to give reasonable results
+        self.model = YOLO('yolov8l-oiv7') # Path to your YOLOv8 model. oiv7 seems to give reasonable results
+        # self.model = YOLO('yolo12l')
+        # self.model = YOLO('yoloe-11l-seg')
+
 
         self.filter = True
         self.allowed_class_names = [
             'Filing cabinet','Desk', 'Person', 'Chair', 'Couch', 'Closet', 
-            'Dog', 'Humidifier', 'Laptop', 'Whiteboard'
+            'Dog', 'Humidifier', 'Laptop', 'Whiteboard', 'Knife', 
+            'Table', 'Umbrella', 'Watermelon', 'Bookshelf', 'Waste container', 
+            'Weapon', 'Lemon', 'Mug', 'Cup', 'Spoon', 'Fork', 'Bowl', 'Bed',
+            'Lime', 'Apple', 'Computer monitor', 'Keyboard', 'Mouse', 'Cell phone', 'Book',
         ]
 
         # Map class names to indices once
@@ -43,9 +49,11 @@ class Yolov8Detector(Node):
         
         # Get detection result for first image
         result = results[0]
+
+        # print('dictionary = ', self.model.names.items())
         
-        if self.filter:
-            result.boxes = result.boxes[[i for i, c in enumerate(result.boxes.cls.int()) if c.item() in self.allowed_class_ids]]
+        # if self.filter:
+        #     result.boxes = result.boxes[[i for i, c in enumerate(result.boxes.cls.int()) if c.item() in self.allowed_class_ids]]
 
         # Draw bounding boxes on the image
         annotated_frame = result.plot()
@@ -53,11 +61,13 @@ class Yolov8Detector(Node):
         detection_msg = self.bridge.cv2_to_imgmsg(annotated_frame, encoding='bgr8')
         detection_msg.header = msg.header  # Retain original message header
         self.publisher.publish(detection_msg)
+
 def main(args=None):
     rclpy.init(args=args)
     yolov8_detector = Yolov8Detector()
     rclpy.spin(yolov8_detector)
     yolov8_detector.destroy_node()
     rclpy.shutdown()
+
 if __name__ == '__main__':
     main()
